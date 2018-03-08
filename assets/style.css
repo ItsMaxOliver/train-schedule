@@ -1,0 +1,25 @@
+
+.display-4 {
+    text-align: center;
+}
+
+.card-title {
+    color: white;
+    background-color: black;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 10px;
+}
+
+form {
+    padding-left: 15px;
+}
+
+.btn {
+    margin: 10px;
+    margin-bottom: 0px;
+}
+
+div {
+    margin-bottom: 15px;
+}
