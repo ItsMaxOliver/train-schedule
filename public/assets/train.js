@@ -1,6 +1,7 @@
 $(function () {
     let database = firebase.database();
-
+    //sets a variable to the firebase database so that we don't have to keep retyping it
+    
     database.ref("schedArr/").on("value", function (snapshot) {
         let currentSched = snapshot.val();
         console.log(currentSched);
