@@ -1,0 +1,42 @@
+[debug] [2018-03-11T15:27:25.800Z] ----------------------------------------------------------------------
+[debug] [2018-03-11T15:27:25.816Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\Molly\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-11T15:27:25.816Z] CLI Version:   3.17.5
+[debug] [2018-03-11T15:27:25.816Z] Platform:      win32
+[debug] [2018-03-11T15:27:25.816Z] Node Version:  v8.9.4
+[debug] [2018-03-11T15:27:25.816Z] Time:          Sun Mar 11 2018 10:27:25 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:25.816Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-11T15:27:25.847Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-11T15:27:25.847Z] > authorizing via signed-in user
+[debug] [2018-03-11T15:27:25.847Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-11T15:27:25.847Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/_iMe-JJfs71qUz2b7k06-P2TpgEHvPUyZTtR8kXabAA',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sun Mar 11 2018 10:27:25 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:26.144Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-11T15:27:26.160Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/mj-train-schedules  
+  
+ Sun Mar 11 2018 10:27:26 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:26.626Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-11T15:27:26.626Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/mj-train-schedules/tokens  
+  
+ Sun Mar 11 2018 10:27:26 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:27.048Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-11T15:27:27.048Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/mj-train-schedules  
+  
+ Sun Mar 11 2018 10:27:27 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:27.596Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\Users\Molly\Desktop\Code\train-schedule'...
+[info] 
+[debug] [2018-03-11T15:27:27.611Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/792144109056/clients/_:getWebAppConfig  
+  
+ Sun Mar 11 2018 10:27:27 GMT-0500 (Central Daylight Time)
+[debug] [2018-03-11T15:27:27.986Z] <<< HTTP RESPONSE 200
+[info] i  hosting: Serving hosting files from: public
+[info] +  hosting: Local server: http://localhost:5000
+
+[info] Shutting down...
