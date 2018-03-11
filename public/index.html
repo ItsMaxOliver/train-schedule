@@ -31,13 +31,7 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr class="tableRow">
-                            <td class="name"></td>
-                            <td class="destination"></td>
-                            <td class="freq"></td>
-                            <td class="arrival"></td>
-                            <td class="away"></td>
-                        </tr>
+                        <!-- dynamically created tableRows go here -->
                     </tbody>
                 </table>
             </div>
@@ -56,9 +50,9 @@
                     <label for="train-destination">Destination: </label>
                     <input type="text" id="train-destination" placeholder="destination"> <br>
                     <label for="first-train-time">First Train:&nbsp; &nbsp;</label>
-                    <input type="text" id="first-train-time" placeholder="military time"> <br>
+                    <input type="time" id="first-train-time" placeholder="military time"> <br>
                     <label for="train-frequency">Frequency:&nbsp;&nbsp;</label>
-                    <input type="text" id="train-frequency" placeholder="minutes"> <br>
+                    <input type="number" id="train-frequency" placeholder="minutes"> <br>
                     <button class="btn btn-primary" id="add-train-button">Submit</button>
                 </form>
             </div>
