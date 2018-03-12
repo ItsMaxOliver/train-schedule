@@ -43,7 +43,7 @@ $(function () {
         //creates a new <td> for the frequency inputed
         var currentNextArrival = $("<td class='arrival'>").text(moment(nextArrival).format("h:mm A"));
         //creates a new <td> for the nextArrival that was calculated in an am/pm format
-        var currentMinutesAway = $("<td class='billed'>").text(minutesAway);
+        var currentMinutesAway = $("<td class='away'>").text(minutesAway);
         //creates a new <td> for the minutesAway that was calculated
         
         newRow.append(currentName)
